@@ -1,0 +1,84 @@
+@import '../../styles/variables.scss';
+
+.left-h1 {
+  color: $color-stark;
+  text-align: center;
+  height: 60px;
+  width: 210px;
+  border-radius: 10px;
+  position: relative;
+  left: 120px;
+  top: 50px;
+  font-size: 2.4rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.About {
+  background-image: url('../../assets/fondo.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding-left: 220px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #00000071;
+  }
+}
+.about-inf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.left {
+  width: 30%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.img {
+  width: 300px;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  right: 50px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.cont-right {
+  padding-bottom: 20px;
+  h3 {
+    font-size: 2.2rem;
+    color: $color-stark;
+    position: relative;
+    top: 20px;
+
+    span {
+      color: $color-jewel;
+    }
+  }
+}
+.right {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  color: $color-fog;
+  position: relative;
+  right: 50px;
+  font-size: 1.2rem;
+}

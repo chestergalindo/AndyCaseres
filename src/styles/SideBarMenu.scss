@@ -1,0 +1,68 @@
+@import './commons.scss';
+@import './variables.scss';
+
+.SideBarMenu {
+  background-color: $color-void;
+  color: $color-blanco;
+  position: absolute;
+  height: 100vh;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+
+  @include transition(width);
+  z-index: 2;
+
+  &.expanded {
+    width: 300px;
+    transition: 1s ease;
+
+    .hamburgerIcon {
+      display: none;
+    }
+  }
+
+  &.collapsed {
+    width: 68px;
+    transition: 1s ease;
+
+    .Infodev {
+      margin-top: 60px;
+    }
+    .Infodev a {
+      display: none;
+    }
+    .logo {
+      width: 50px;
+    }
+
+    .SideBarMenuCardView {
+      border-bottom: none;
+    }
+
+    .profile {
+      width: 90%;
+      border: none;
+    }
+  }
+
+  .menuButton {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .hamburgerIcon {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: $color-blanco;
+    padding: 10px;
+    width: 68px;
+    border-radius: 3px;
+
+    &:hover {
+      background-color: $color-jewel;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import './commons.scss';
+@import './variables.scss';
+
+.Infodev {
+  margin-top: 20px;
+  text-align: center;
+
+  padding-top: 20px;
+}
+
+.logo {
+  width: 60px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  &.collapsed {
+    width: 30px;
+  }
+}
+
+.andy-caseres {
+  color: $color-jewel;
+  text-decoration: none;
+  cursor: pointer;
+}

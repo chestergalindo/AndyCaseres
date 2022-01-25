@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.Home {
+  background-image: url('../../assets/fondo.jpg');
+  background-size: cover;
+  height: 100vh;
+  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: #00000071;
+  }
+}
+
+.h1 {
+  text-align: center;
+  color: $color-stark;
+  font-size: 3rem;
+  margin: 0;
+
+  & span {
+    color: $color-jewel;
+    font-size: 3.5rem;
+  }
+}
+
+.cont-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  animation: fadeOut ease-in-out 0.8s;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.p {
+  color: $color-stark;
+  font-size: 1.5rem;
+}

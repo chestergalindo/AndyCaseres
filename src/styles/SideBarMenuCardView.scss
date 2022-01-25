@@ -1,0 +1,49 @@
+@import './commons.scss';
+@import './variables.scss';
+
+.SideBarMenuCardView {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+
+  .profile {
+    max-width: 140px;
+    margin-top: 20px;
+    border-radius: 50%;
+
+    &.collapsed {
+      border: none;
+    }
+  }
+
+  .profileInfo {
+    overflow: hidden;
+    height: 80px;
+    @include transition(height);
+
+    &.collapsed {
+      opacity: 0;
+      height: 0;
+    }
+
+    .name {
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 5px;
+    }
+    .title {
+      padding-bottom: 5px;
+    }
+
+    .url {
+      a {
+        color: blueviolet;
+
+        &:hover {
+          color: white;
+        }
+      }
+    }
+  }
+}
