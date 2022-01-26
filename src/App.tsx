@@ -12,6 +12,7 @@ import { BrowserRouter, Route, Link, Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/Portfolio'
+import Curriculum from './pages/Curriculum/Curriculum'
 
 function App(): JSX.Element {
   const items: SideBarMenuItem[] = [
@@ -60,7 +61,7 @@ function App(): JSX.Element {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
-
+        <Route path='/Curriculum' element={<Curriculum />} />
         <Route path='/Portfolio' element={<Portfolio />} />
       </Routes>
     </BrowserRouter>
