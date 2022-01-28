@@ -1,5 +1,4 @@
 import './Home.scss'
-import { BsInstagram, BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs'
 import SocialNet from '../../components/SocialNet'
 
 const Home = () => {
@@ -9,9 +8,12 @@ const Home = () => {
         <h1 className='h1'>
           !Hola¡ Soy <span>Andy Caseres</span>
           <p className='p'>
-            «La mayoría de los buenos programadores programan no porque esperan
-            que les pagen o que el público los adore, sino porque programar es
-            divertido.»
+            “De vez en cuando, una nueva tecnología, un antiguo problema y una
+            gran idea se convierten en una innovación». Dean Kamen.
+            <br />
+            <br />
+            “Las grandes oportunidades nacen de haber sabido aprovechar las
+            pequeñas”. Bill Gates
           </p>
         </h1>
         <SocialNet />

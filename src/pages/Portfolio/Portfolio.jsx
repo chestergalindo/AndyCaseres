@@ -10,7 +10,7 @@ const Portfolio = () => {
     <div className='portfolio'>
       <Card
         img={calculadora}
-        title='Calculadora'
+        title='Portafolio'
         info='Portafolio creado con HTML - CSS - Javascript - React'
         web='https://calculadora-sable.vercel.app/'
         codigo='https://github.com/andycaseres2/CalculadoraJs'
