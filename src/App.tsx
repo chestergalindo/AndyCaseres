@@ -13,6 +13,7 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Curriculum from './pages/Curriculum/Curriculum'
+import Contact from './pages/Contact/Contact'
 
 function App(): JSX.Element {
   const items: SideBarMenuItem[] = [
@@ -63,6 +64,7 @@ function App(): JSX.Element {
         <Route path='/About' element={<About />} />
         <Route path='/Curriculum' element={<Curriculum />} />
         <Route path='/Portfolio' element={<Portfolio />} />
+        <Route path='/Contact' element={<Contact />} />
       </Routes>
     </BrowserRouter>
   )
