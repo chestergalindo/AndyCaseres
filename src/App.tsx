@@ -8,7 +8,7 @@ import {
   FcOpenedFolder,
 } from 'react-icons/fc'
 import imagenes from './assets/imagenes.js'
-import { BrowserRouter, Route, Link, Routes } from 'react-router-dom'
+import { BrowserRouter, Navigate, Route,  Routes } from 'react-router-dom'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/Portfolio'
@@ -65,6 +65,8 @@ function App(): JSX.Element {
         <Route path='/Curriculum' element={<Curriculum />} />
         <Route path='/Portfolio' element={<Portfolio />} />
         <Route path='/Contact' element={<Contact />} />
+        <Route path='*' element={<Navigate replace to="/"/>} />
+
       </Routes>
     </BrowserRouter>
   )
