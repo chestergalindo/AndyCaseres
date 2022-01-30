@@ -1,6 +1,5 @@
 import React from 'react'
 import { SideBarMenuCard } from '../types/types'
-import { classNames } from '../util/classes'
 import '../styles/SideBarMenuCardView.scss'
 
 interface SideBarMenuCardViewProps {

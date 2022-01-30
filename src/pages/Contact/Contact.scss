@@ -6,7 +6,7 @@
   height: 100vh;
   padding-left: 300px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   position: relative;
@@ -38,7 +38,6 @@
 .Servicios {
   width: 50%;
   color: white;
-  padding: 0px 50px;
 }
 
 .title {
@@ -48,8 +47,22 @@
   width: 210px;
   border-radius: 10px;
   position: relative;
-  right: 350px;
-  top: 50px;
+  left: 80px;
+  top: 10px;
+  font-size: 2.4rem;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+.title-Servicios {
+  color: $color-stark;
+  text-align: center;
+  height: 60px;
+  width: 210px;
+  border-radius: 10px;
+  position: relative;
+  left: 80px;
+  bottom: 30px;
   font-size: 2.4rem;
   -webkit-box-shadow: 0px 10px 13px -7px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
@@ -111,7 +124,7 @@ label {
   border-radius: 5px;
   background-color: $color-jewel;
   color: $color-stark;
-  height: 40px;
+  height: 50px;
   text-align: center;
   font-size: 20px;
   margin-top: 10px;
@@ -123,4 +136,38 @@ input:focus {
 
 textarea:focus {
   border-color: $color-jewel;
+}
+
+.card-container {
+  width: 80%;
+  padding-left: 20px;
+  background-color: #1d242eb3;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  bottom: 25px;
+}
+.container {
+  padding: 15px 10px;
+}
+
+.card-icon {
+  font-size: 20px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-parrafo {
+  font-size: 12px;
+  margin: 0;
+}
+.contact-social {
+  width: 80%;
+  position: relative;
+  bottom: 6px;
 }

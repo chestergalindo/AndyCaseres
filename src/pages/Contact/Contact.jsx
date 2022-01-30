@@ -1,4 +1,7 @@
 import './Contact.scss'
+import Card from './Card.jsx'
+import { FaLayerGroup } from 'react-icons/fa'
+import SocialNet from '../../components/SocialNet'
 
 const Contact = () => {
   return (
@@ -28,13 +31,27 @@ const Contact = () => {
           </form>
         </div>
         <div className='Servicios'>
-          <h2 className=''>title</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            similique harum ullam? Rem quam, aspernatur iure obcaecati
-            recusandae repudiandae voluptate facilis perspiciatis, quisquam
-            dicta quaerat voluptatem, perferendis dolores sint autem.
-          </p>
+          <h2 className='title-Servicios'>Servicios</h2>
+          <Card
+            icon={<FaLayerGroup />}
+            title='Diseño Web'
+            parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
+          />
+          <br />
+          <Card
+            icon={<FaLayerGroup />}
+            title='Diseño Web'
+            parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
+          />
+          <br />
+          <Card
+            icon={<FaLayerGroup />}
+            title='Diseño Web'
+            parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
+          />
+          <div className='contact-social'>
+            <SocialNet />
+          </div>
         </div>
       </div>
     </div>
