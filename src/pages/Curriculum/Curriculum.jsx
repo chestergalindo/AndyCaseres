@@ -5,7 +5,7 @@ import { AiFillHtml5 } from 'react-icons/ai'
 const Curriculum = () => {
   return (
     <div className='Curriculum'>
-      <h1 className='title'> Skills</h1>
+      <h1 className='title-skill '> Skills</h1>
       <div className='curriculum-content'>
         <Skill
           skill={

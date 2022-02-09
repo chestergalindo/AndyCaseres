@@ -9,23 +9,33 @@ const Contact = () => {
       <h1 className='title'>Contacto</h1>
       <div className='contacto-content'>
         <div className='Contact-Form'>
-          <form className='Form' action=''>
+          <form id='formulario' className='Form' action=''>
             <h2 className='sub-title'>Ponte en contacto</h2>
             <div className='input'>
-              <label for=''>Pon tu nombre*</label>
-              <input type='text' />
+              <label for=''>Nombre *</label>
+              <input
+                className='input-correct'
+                type='text'
+                name='name'
+                placeholder='Nombre Completo'
+              />
             </div>
             <div className='input'>
-              <label for=''>Pon tu nombre*</label>
-              <input type='text' />
+              <label for=''>Numero *</label>
+              <input type='text' name='number' placeholder='Numero Celular' />
             </div>
             <div className='input'>
-              <label for=''>Pon tu nombre*</label>
-              <input type='text' />
+              <label for=''>Correo *</label>
+              <input type='text' name='mail' placeholder='Correo Electronico' />
             </div>
             <div class='textarea'>
-              <label for=''>mensaje*</label>
-              <textarea name='' id='' cols='30' rows='6'></textarea>
+              <label for=''>Mensaje *</label>
+              <textarea
+                name='msj'
+                id=''
+                cols='30'
+                rows='6'
+                placeholder='Cuentame'></textarea>
             </div>
             <input className='btn' type='submit' />
           </form>

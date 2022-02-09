@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Skill = (props) => {
   return (
     <div className='skill'>
