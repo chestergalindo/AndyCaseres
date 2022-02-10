@@ -129,6 +129,12 @@ label {
   font-size: 20px;
   margin-top: 10px;
   cursor: pointer;
+
+  &:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.015);
+    font-size: 22px;
+  }
 }
 
 input:focus {
@@ -155,7 +161,7 @@ textarea:focus {
 }
 
 .card-icon {
-  font-size: 20px;
+  font-size: 23px;
 }
 
 .card-title {
@@ -171,12 +177,4 @@ textarea:focus {
   width: 80%;
   position: relative;
   bottom: 6px;
-}
-
-.input-correct {
-  border-color: rgb(27, 182, 27);
-
-  &::before {
-    content: '/';
-  }
 }

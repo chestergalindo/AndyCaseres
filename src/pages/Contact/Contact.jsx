@@ -1,6 +1,9 @@
 import './Contact.scss'
 import Card from './Card.jsx'
 import { FaLayerGroup } from 'react-icons/fa'
+import { RiComputerLine } from 'react-icons/ri'
+import { BsPhone } from 'react-icons/bs'
+
 import SocialNet from '../../components/SocialNet'
 
 const Contact = () => {
@@ -14,7 +17,7 @@ const Contact = () => {
             <div className='input'>
               <label for=''>Nombre *</label>
               <input
-                className='input-correct'
+                id='name'
                 type='text'
                 name='name'
                 placeholder='Nombre Completo'
@@ -22,17 +25,27 @@ const Contact = () => {
             </div>
             <div className='input'>
               <label for=''>Numero *</label>
-              <input type='text' name='number' placeholder='Numero Celular' />
+              <input
+                type='text'
+                id='number'
+                name='number'
+                placeholder='Numero Celular'
+              />
             </div>
             <div className='input'>
               <label for=''>Correo *</label>
-              <input type='text' name='mail' placeholder='Correo Electronico' />
+              <input
+                type='text'
+                id='mail'
+                name='mail'
+                placeholder='Correo Electronico'
+              />
             </div>
             <div class='textarea'>
               <label for=''>Mensaje *</label>
               <textarea
                 name='msj'
-                id=''
+                id='msj'
                 cols='30'
                 rows='6'
                 placeholder='Cuentame'></textarea>
@@ -49,14 +62,14 @@ const Contact = () => {
           />
           <br />
           <Card
-            icon={<FaLayerGroup />}
-            title='Diseño Web'
+            icon={<RiComputerLine />}
+            title='Desarrollo Web'
             parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
           />
           <br />
           <Card
-            icon={<FaLayerGroup />}
-            title='Diseño Web'
+            icon={<BsPhone />}
+            title='Diseño Responsive'
             parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
           />
           <div className='contact-social'>
