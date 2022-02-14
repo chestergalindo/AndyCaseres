@@ -58,19 +58,19 @@ const Contact = () => {
           <Card
             icon={<FaLayerGroup />}
             title='Diseño Web'
-            parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
+            parrafo='Planificar y diseñar interfaces digitales.o.'
           />
           <br />
           <Card
             icon={<RiComputerLine />}
             title='Desarrollo Web'
-            parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
+            parrafo='Construir y mantener interfaces digitales..'
           />
           <br />
           <Card
             icon={<BsPhone />}
             title='Diseño Responsive'
-            parrafo='La interfaz debe proyectar la imagen corporativa del cliente, su esencia y valores deben entenderse más allá de colocar solo el logotipo.'
+            parrafo='Adaptabilidad y Visualizacion de interfaces digitales.'
           />
           <div className='contact-social'>
             <SocialNet />

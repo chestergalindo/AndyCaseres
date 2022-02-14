@@ -4,6 +4,8 @@ import calculadora from '../../assets/calculadora.png'
 import pokedex from '../../assets/pokedex.png'
 import cronometro from '../../assets/cronometro.png'
 import agenda from '../../assets/agenda.png'
+import carrocompras from '../../assets/carro-compra-react.png'
+import todots from '../../assets/TodoTS.png'
 
 const Portfolio = () => {
   return (
@@ -11,9 +13,23 @@ const Portfolio = () => {
       <Card
         img={calculadora}
         title='Portafolio'
-        info='Portafolio creado con HTML - CSS - Javascript - React'
+        info='Portafolio HTML - CSS - Javascript - React'
         web='https://calculadora-sable.vercel.app/'
         codigo='https://github.com/andycaseres2/CalculadoraJs'
+      />
+      <Card
+        img={carrocompras}
+        title='Carro de Compras'
+        info='Carro de Compras HTML - CSS - Javascript - React'
+        web='https://carro-de-compras-react.vercel.app/'
+        codigo='https://github.com/andycaseres2/Carro-de-Compras-React-'
+      />
+      <Card
+        img={todots}
+        title='TODO Typescript'
+        info='TODO HTML - CSS - Typescript - React'
+        web='https://tareas-react-typescript.vercel.app/'
+        codigo='https://github.com/andycaseres2/Tareas-React-Typescript'
       />
       <Card
         img={calculadora}
@@ -35,13 +51,6 @@ const Portfolio = () => {
         info='Cronometro creado con HTML - CSS - Javascript'
         web='https://cronometro-two.vercel.app/'
         codigo='https://github.com/andycaseres2/Cronometro'
-      />
-      <Card
-        img={agenda}
-        title='Agenda'
-        info='Agenda creada con HTML - CSS - Javascript'
-        web='https://agenda-contactos.vercel.app/'
-        codigo='https://github.com/andycaseres2/AgendaContacto-Js'
       />
     </div>
   )
