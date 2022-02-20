@@ -1,7 +1,7 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .Contact {
-  background-image: url('../../assets/fondo.jpg');
+  background-image: url("../../assets/fondo.jpg");
   background-size: cover;
   height: 100vh;
   padding-left: 300px;
@@ -13,7 +13,7 @@
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -131,7 +131,7 @@ label {
   cursor: pointer;
 
   &:hover {
-    transition: all 0.5s ease;
+    transition: all 0.6s ease;
     transform: scale(1.015);
     font-size: 22px;
   }
