@@ -70,7 +70,7 @@
   }
 }
 
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 768px) {
   .SideBarMenuItemView {
     &.expanded {
       width: 35px;
