@@ -1,5 +1,5 @@
-@import './commons.scss';
-@import './variables.scss';
+@import "./commons.scss";
+@import "./variables.scss";
 
 .SideBarMenuCardView {
   text-align: center;
@@ -45,5 +45,20 @@
         }
       }
     }
+  }
+}
+@media only screen and (min-width: 375px) {
+  .SideBarMenuCardView {
+    &.expanded {
+      border: none;
+    }
+    &.expanded {
+      opacity: 0;
+      height: 0;
+    }
+  }
+  .profile {
+    width: 90%;
+    border: none;
   }
 }

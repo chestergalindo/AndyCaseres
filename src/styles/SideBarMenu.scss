@@ -1,5 +1,5 @@
-@import './commons.scss';
-@import './variables.scss';
+@import "./commons.scss";
+@import "./variables.scss";
 
 .SideBarMenu {
   background-color: $color-void;
@@ -63,6 +63,52 @@
 
     &:hover {
       background-color: $color-jewel;
+    }
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .SideBarMenu {
+    &.expanded {
+      width: 68px;
+      transition: 1s ease;
+
+      .Infodev {
+        margin-top: 60px;
+      }
+      .Infodev a {
+        display: none;
+      }
+      .logo {
+        width: 50px;
+      }
+
+      .SideBarMenuCardView {
+        border-bottom: none;
+      }
+    }
+  }
+  &.collapsed {
+    width: 68px;
+    transition: 1s ease;
+
+    .Infodev {
+      margin-top: 60px;
+    }
+    .Infodev a {
+      display: none;
+    }
+    .logo {
+      width: 50px;
+    }
+
+    .SideBarMenuCardView {
+      border-bottom: none;
+    }
+
+    .profile {
+      width: 90%;
+      border: none;
     }
   }
 }
