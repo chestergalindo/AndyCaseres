@@ -1,4 +1,4 @@
-@import './variables.scss';
+@import "./variables.scss";
 
 .social-net {
   display: flex;
@@ -16,5 +16,10 @@
   &:hover {
     color: $color-jewel;
     transition: 0.3s ease-in-out;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .iconSocial {
+    font-size: 30px;
   }
 }

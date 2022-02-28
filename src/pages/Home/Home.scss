@@ -1,7 +1,7 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .Home {
-  background-image: url('../../assets/fondo.jpg');
+  background-image: url("../../assets/fondo.jpg");
   background-size: cover;
   height: 100vh;
   padding-left: 300px;
@@ -12,7 +12,7 @@
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -47,4 +47,25 @@
 .p {
   color: $color-stark;
   font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .Home {
+    padding-left: 50px;
+  }
+  .h1 {
+    text-align: center;
+    color: $color-stark;
+    font-size: 2rem;
+    margin: 0;
+
+    & span {
+      color: $color-jewel;
+      font-size: 2.5rem;
+    }
+  }
+  .p {
+    color: $color-stark;
+    font-size: 1rem;
+  }
 }
