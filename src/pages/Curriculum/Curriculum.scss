@@ -1,7 +1,7 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .Curriculum {
-  background-image: url('../../assets/fondo.jpg');
+  background-image: url("../../assets/fondo.jpg");
   background-size: cover;
   height: 100vh;
   padding-left: 300px;
@@ -13,7 +13,7 @@
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -25,7 +25,7 @@
 }
 .curriculum-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -74,4 +74,35 @@
   filter: grayscale(0);
   transform: scale(1.1);
   transition: all 0.5s ease;
+}
+@media only screen and (max-width: 768px) {
+  .Curriculum {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .curriculum-content {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto;
+    position: relative;
+    left: 80px;
+  }
+  .title-skill {
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+    top: 20px;
+    left: 150px;
+  }
+
+  .skill {
+    width: 90px;
+    height: 80px;
+  }
+  .skill-icon {
+    width: 60px;
+  }
 }
