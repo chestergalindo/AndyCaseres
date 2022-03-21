@@ -1,6 +1,5 @@
 import './Curriculum.scss'
 import Skill from './Skill'
-import { AiFillHtml5 } from 'react-icons/ai'
 
 const Curriculum = () => {
   return (
