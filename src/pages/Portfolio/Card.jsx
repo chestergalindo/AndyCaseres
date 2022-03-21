@@ -1,4 +1,3 @@
-import andy from '../../assets/andy.png'
 import { BsGithub, BsBoxArrowUpRight } from 'react-icons/bs'
 import './Portfolio.scss'
 import { Fragment } from 'react'
@@ -16,10 +15,11 @@ const Card = (props) => {
           <a
             className='icons-card-content'
             href={props.codigo}
-            target='__blank'>
+            target='__blank'
+          >
             <BsGithub />
           </a>
-          <a className='icons-card-content' href={props.web} target='_blank'>
+          <a className='icons-card-content' href={props.web} target='__blank'>
             <BsBoxArrowUpRight />
           </a>
         </div>

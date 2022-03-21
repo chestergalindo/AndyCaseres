@@ -3,7 +3,6 @@ import './Portfolio.scss'
 import calculadora from '../../assets/calculadora.png'
 import pokedex from '../../assets/pokedex.png'
 import cronometro from '../../assets/cronometro.png'
-import agenda from '../../assets/agenda.png'
 import carrocompras from '../../assets/carro-compra-react.png'
 import todots from '../../assets/TodoTS.png'
 
