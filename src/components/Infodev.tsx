@@ -4,7 +4,10 @@ import '../styles/Infodev.scss'
 const Infodev = () => {
   return (
     <div className='Infodev'>
-      <img className='logo' src={imagenes.logo} alt='AC' />
+      <a href='/'>
+        {' '}
+        <img className='logo' src={imagenes.logo} alt='AC' />
+      </a>
       <br />
       <span>
         © 2022 por{' '}
