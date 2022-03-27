@@ -1,10 +1,11 @@
 import Card from './Card'
 import './Portfolio.scss'
-import calculadora from '../../assets/calculadora.png'
+import acclima from '../../assets/acclima.png'
 import pokedex from '../../assets/pokedex.png'
 import cronometro from '../../assets/cronometro.png'
 import carrocompras from '../../assets/carro-compra-react.png'
 import todots from '../../assets/TodoTS.png'
+import calculadora from '../../assets/calculadora.png'
 
 const Portfolio = () => {
   return (
@@ -12,7 +13,7 @@ const Portfolio = () => {
       <Card
         img={calculadora}
         title='Portafolio'
-        info='Portafolio HTML - CSS - Javascript - React'
+        info='Portafolio HTML - CSS - Javascript - Typescript - React'
         web='https://calculadora-sable.vercel.app/'
         codigo='https://github.com/andycaseres2/CalculadoraJs'
       />
@@ -31,9 +32,9 @@ const Portfolio = () => {
         codigo='https://github.com/andycaseres2/Tareas-React-Typescript'
       />
       <Card
-        img={calculadora}
-        title='Calculadora'
-        info='Calculadora creada con HTML - CSS - Javascript'
+        img={acclima}
+        title='ACClima'
+        info='App del Clima creada con HTML - CSS - SASS - Javascript - React'
         web='https://calculadora-sable.vercel.app/'
         codigo='https://github.com/andycaseres2/CalculadoraJs'
       />
@@ -45,9 +46,9 @@ const Portfolio = () => {
         codigo='https://github.com/andycaseres2/PokeDexJS'
       />
       <Card
-        img={cronometro}
-        title='Cronometro'
-        info='Cronometro creado con HTML - CSS - Javascript'
+        img={calculadora}
+        title='Calculadora'
+        info='Calculadora creado con HTML - CSS - Javascript'
         web='https://cronometro-two.vercel.app/'
         codigo='https://github.com/andycaseres2/Cronometro'
       />
