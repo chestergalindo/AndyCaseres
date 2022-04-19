@@ -71,3 +71,13 @@
   color: $color-fuschia;
   transition: 0.3s ease-in-out;
 }
+
+@media only screen and (min-width: 375px) {
+  .portafolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    justify-content: center;
+  }
+}
