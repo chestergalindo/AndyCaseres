@@ -3,7 +3,7 @@ import './Portfolio.scss'
 import acclima from '../../assets/acclima.png'
 import pokedex from '../../assets/pokedex.png'
 import carrocompras from '../../assets/carro-compra-react.png'
-import todots from '../../assets/TodoTS.png'
+import spacex from '../../assets/SPX.png'
 import calculadora from '../../assets/calculadora.png'
 
 const Portfolio = () => {
@@ -12,7 +12,7 @@ const Portfolio = () => {
       <Card
         img={calculadora}
         title='Portafolio'
-        info='Portafolio HTML - CSS - Javascript - Typescript - React'
+        info='Portafolio HTML - CSS - SASS - Javascript - Typescript - React'
         web='https://calculadora-sable.vercel.app/'
         codigo='https://github.com/andycaseres2/CalculadoraJs'
       />
@@ -24,23 +24,23 @@ const Portfolio = () => {
         codigo='https://github.com/andycaseres2/Carro-de-Compras-React-'
       />
       <Card
-        img={todots}
-        title='TODO Typescript'
-        info='TODO HTML - CSS - Typescript - React'
-        web='https://tareas-react-typescript.vercel.app/'
-        codigo='https://github.com/andycaseres2/Tareas-React-Typescript'
+        img={spacex}
+        title='SpaceX Missions'
+        info='Proyecto creado con React - CSS - Javascript - FETCH'
+        web='https://spacex-missions-eight.vercel.app/'
+        codigo='https://github.com/andycaseres2/spacex-missions'
       />
       <Card
         img={acclima}
         title='ACClima'
-        info='App del Clima creada con HTML - CSS - SASS - Javascript - React'
+        info='App del Clima creada con HTML - CSS - SASS - Javascript - React - FETCH'
         web='https://calculadora-sable.vercel.app/'
         codigo='https://github.com/andycaseres2/CalculadoraJs'
       />
       <Card
         img={pokedex}
         title='Pokedex'
-        info='Pokedex creado con HTML - CSS - Javascript'
+        info='Pokedex creado con HTML - CSS - Javascript - FETCH'
         web='https://pokedex-sand-psi.vercel.app/'
         codigo='https://github.com/andycaseres2/PokeDexJS'
       />
