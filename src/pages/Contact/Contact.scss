@@ -1,7 +1,7 @@
-@import "../../styles/variables.scss";
+@import '../../styles/variables.scss';
 
 .Contact {
-  background-image: url("../../assets/fondo.jpg");
+  background-image: url('../../assets/fondo.jpg');
   background-size: cover;
   height: 100vh;
   padding-left: 300px;
@@ -13,7 +13,7 @@
   z-index: 1;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -177,4 +177,71 @@ textarea:focus {
   width: 80%;
   position: relative;
   bottom: 6px;
+}
+@media only screen and (min-width: 375px) {
+  .Contact {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  .contacto-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: relative;
+    right: 50px;
+    top: 100px;
+    width: 550px;
+  }
+  .title {
+    top: 0;
+    left: -200px;
+    font-size: 25px;
+    width: 150px;
+    height: 50px;
+  }
+  .title-Servicios {
+    display: none;
+  }
+  .Contact-Form {
+    padding: 0;
+  }
+  .sub-title {
+    font-size: 22px;
+  }
+  .Servicios {
+    width: 320px;
+    padding: 0;
+    position: relative;
+    top: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contacto-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    right: 80px;
+    top: -10px;
+  }
+  .Contact-Form {
+    width: 350px;
+    padding: 0;
+  }
+
+  .Servicios {
+    padding-left: 20px;
+    width: 300px;
+    top: 150px;
+    height: 300px;
+  }
 }

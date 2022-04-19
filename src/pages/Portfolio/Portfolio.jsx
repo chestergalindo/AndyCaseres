@@ -12,9 +12,9 @@ const Portfolio = () => {
       <Card
         img={calculadora}
         title='Portafolio'
-        info='Portafolio HTML - CSS - SASS - Javascript - Typescript - React'
-        web='https://calculadora-sable.vercel.app/'
-        codigo='https://github.com/andycaseres2/CalculadoraJs'
+        info='Portafolio HTML - CSS - SASS - Javascript - Typescript - React - React Router'
+        web='#'
+        codigo='#'
       />
       <Card
         img={carrocompras}
@@ -26,7 +26,7 @@ const Portfolio = () => {
       <Card
         img={spacex}
         title='SpaceX Missions'
-        info='Proyecto creado con React - CSS - Javascript - FETCH'
+        info='Proyecto creado con React - CSS - Javascript - FETCH - React Router'
         web='https://spacex-missions-eight.vercel.app/'
         codigo='https://github.com/andycaseres2/spacex-missions'
       />
@@ -34,8 +34,8 @@ const Portfolio = () => {
         img={acclima}
         title='ACClima'
         info='App del Clima creada con HTML - CSS - SASS - Javascript - React - FETCH'
-        web='https://calculadora-sable.vercel.app/'
-        codigo='https://github.com/andycaseres2/CalculadoraJs'
+        web='https://acclima.vercel.app/'
+        codigo='https://github.com/andycaseres2/acclima'
       />
       <Card
         img={pokedex}
@@ -48,8 +48,8 @@ const Portfolio = () => {
         img={calculadora}
         title='Calculadora'
         info='Calculadora creado con HTML - CSS - Javascript'
-        web='https://cronometro-two.vercel.app/'
-        codigo='https://github.com/andycaseres2/Cronometro'
+        web='#'
+        codigo='#'
       />
     </div>
   )
