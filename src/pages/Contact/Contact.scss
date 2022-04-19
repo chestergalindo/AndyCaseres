@@ -1,7 +1,7 @@
-@import '../../styles/variables.scss';
+@import "../../styles/variables.scss";
 
 .Contact {
-  background-image: url('../../assets/fondo.jpg');
+  background-image: url("../../assets/fondo.jpg");
   background-size: cover;
   height: 100vh;
   padding-left: 300px;
@@ -13,7 +13,7 @@
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -216,12 +216,26 @@ textarea:focus {
   }
   .sub-title {
     font-size: 22px;
+    top: 30px;
   }
   .Servicios {
     width: 320px;
     padding: 0;
     position: relative;
     top: 50px;
+  }
+  .input {
+    padding: 0;
+  }
+  .btn {
+    height: 40px;
+  }
+  .card-container {
+    height: 105px;
+  }
+  .social-net {
+    position: relative;
+    top: -10px;
   }
 }
 
