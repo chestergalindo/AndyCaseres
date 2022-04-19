@@ -237,6 +237,11 @@ textarea:focus {
     position: relative;
     top: -10px;
   }
+  .Contact {
+    &::before {
+      height: 160%;
+    }
+  }
 }
 
 @media only screen and (min-width: 768px) {

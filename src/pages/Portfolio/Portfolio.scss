@@ -1,8 +1,8 @@
-@import '../../styles/commons.scss';
-@import '../../styles/variables.scss';
+@import "../../styles/commons.scss";
+@import "../../styles/variables.scss";
 
 .portfolio {
-  background-image: url('../../assets/fondo.jpg');
+  background-image: url("../../assets/fondo.jpg");
   background-size: cover;
   height: 100vh;
   padding-left: 300px;
@@ -14,7 +14,7 @@
   z-index: 1;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -85,6 +85,10 @@
 
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+
+    &::before {
+      height: 326%;
+    }
   }
 }
 @media only screen and (min-width: 1024px) {
