@@ -180,6 +180,7 @@ textarea:focus {
 }
 @media only screen and (min-width: 375px) {
   .Contact {
+    width: 300px;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -240,7 +241,7 @@ textarea:focus {
   .Contact {
     &::before {
       height: 130%;
-      width: 123%;
+      width: 133%;
     }
   }
 }
