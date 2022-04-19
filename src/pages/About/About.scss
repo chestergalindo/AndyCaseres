@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@import '../../styles/variables.scss';
 
 .left-h1 {
   color: $color-stark;
@@ -15,7 +15,7 @@
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 .About {
-  background-image: url("../../assets/fondo.jpg");
+  background-image: url('../../assets/fondo.jpg');
   background-size: cover;
   height: 100vh;
   padding-left: 220px;
@@ -25,7 +25,7 @@
   z-index: 1;
 
   &::before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -113,5 +113,24 @@
   }
   .img {
     width: 200px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .img {
+    width: 200px;
+    position: relative;
+    top: -50px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .img {
+    width: 300px;
+    top: 20px;
+  }
+
+  .cont-right {
+    font-size: 25px;
   }
 }

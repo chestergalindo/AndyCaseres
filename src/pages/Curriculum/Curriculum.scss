@@ -82,9 +82,9 @@
   transition: all 0.5s ease;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (max-width: 768px) {
   .curriculum-content {
-    padding-left: 50px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,8 +95,6 @@
   .skill {
     width: 160px;
     height: 100px;
-    display: flex;
-    flex-wrap: wrap;
     margin: 10px;
     background-color: rgba(22, 21, 21, 0.685);
     border-radius: 10px;
@@ -106,14 +104,22 @@
     position: relative;
     top: 150px;
   }
-
   .title-skill {
-    right: 120px;
+    position: relative;
+    left: -20px;
+  }
+
+  .Infodev {
+    display: none;
   }
 }
-@media only screen and (max-width: 768px) {
+
+@media only screen and (min-width: 375px) {
   .Curriculum {
     display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     justify-content: center;
     align-items: center;
     padding: 0;
@@ -124,40 +130,43 @@
     grid-template-columns: 200px 200px;
     grid-template-rows: auto;
     position: relative;
+    justify-content: center;
     left: 80px;
   }
   .title-skill {
     font-size: 30px;
     width: 150px;
     height: 50px;
-    top: 20px;
-    left: -40px;
+    top: -120px;
+    left: 170px;
+    justify-content: center;
   }
 
   .skill {
     width: 90px;
     height: 80px;
+    position: relative;
+    top: 0px;
   }
   .skill-icon {
     width: 60px;
   }
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1024px) {
   .curriculum-content {
-    padding-left: 50px;
+    padding: 0;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    bottom: 200px;
+    bottom: -100px;
+    left: -120px;
     z-index: 1;
   }
   .skill {
-    width: 160px;
-    height: 130px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 120px;
+    height: 100px;
     margin: 10px;
     background-color: rgba(22, 21, 21, 0.685);
     border-radius: 10px;
@@ -167,21 +176,52 @@
     position: relative;
     top: 150px;
   }
+  .title-skill {
+    position: relative;
+    left: 350px;
+    top: -70px;
+  }
+
+  .Infodev {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .curriculum-content {
+    width: 600px;
+    padding: 0;
+    position: relative;
+    bottom: -100px;
+    left: -120px;
+    z-index: 1;
+  }
+  .skill {
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    background-color: rgba(22, 21, 21, 0.685);
+    border-radius: 10px;
+    justify-content: center;
+    color: $color-stark;
+    text-align: center;
+    position: relative;
+    top: 250px;
+    left: 150px;
+  }
+  .title-skill {
+    font-size: 40px;
+    width: 200px;
+    height: 60px;
+    position: relative;
+    left: 350px;
+    top: -70px;
+  }
   .skill-icon {
     width: 90px;
   }
-  .title-skill {
-    position: relative;
-    color: $color-stark;
-    text-align: center;
-    height: 60px;
-    width: 210px;
-    border-radius: 10px;
-    top: 50px;
-    right: 350px;
-    font-size: 2.7rem;
-    -webkit-box-shadow: 0px 10px 13px -7px #000000,
-      5px 5px 15px 5px rgba(0, 0, 0, 0);
-    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+
+  .Infodev {
+    display: none;
   }
 }
