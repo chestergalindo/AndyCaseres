@@ -214,7 +214,8 @@ textarea:focus {
     }
     .sub-title {
         font-size: 22px;
-        top: 30px;
+        top: -10px;
+        left: 20px;
     }
     .title {
         display: none;
@@ -227,6 +228,7 @@ textarea:focus {
     }
     .input {
         padding: 0;
+        margin-bottom: 20px;
     }
     .btn {
         height: 40px;
@@ -242,6 +244,9 @@ textarea:focus {
         &::before {
             height: 140%;
         }
+    }
+    label {
+        display: none;
     }
 }
 
