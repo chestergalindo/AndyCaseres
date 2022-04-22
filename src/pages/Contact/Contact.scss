@@ -1,288 +1,284 @@
 @import "../../styles/variables.scss";
-
 .Contact {
-  background-image: url("../../assets/fondo.jpg");
-  background-size: cover;
-  height: 100vh;
-  padding-left: 300px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  position: relative;
-  z-index: 1;
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-color: #00000071;
-  }
+    background-image: url("../../assets/fondo.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: #00000071;
+    }
 }
+
 .contacto-content {
-  display: flex;
-  position: relative;
-  bottom: 20px;
+    display: flex;
+    position: relative;
+    bottom: 20px;
 }
 
 .Contact-Form {
-  width: 50%;
-  color: white;
-  padding: 0px 50px;
+    width: 50%;
+    color: white;
+    padding: 0px 50px;
 }
 
 .Servicios {
-  width: 50%;
-  color: white;
+    width: 50%;
+    color: white;
 }
 
 .title {
-  color: $color-stark;
-  text-align: center;
-  height: 60px;
-  width: 210px;
-  border-radius: 10px;
-  position: relative;
-  left: 80px;
-  top: 10px;
-  font-size: 2.4rem;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    color: $color-stark;
+    text-align: center;
+    height: 60px;
+    width: 210px;
+    border-radius: 10px;
+    position: relative;
+    left: 80px;
+    top: 10px;
+    font-size: 2.4rem;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
+
 .title-Servicios {
-  color: $color-stark;
-  text-align: center;
-  height: 60px;
-  width: 210px;
-  border-radius: 10px;
-  position: relative;
-  left: 80px;
-  bottom: 30px;
-  font-size: 2.4rem;
-  -webkit-box-shadow: 0px 10px 13px -7px #000000,
-    5px 5px 15px 5px rgba(0, 0, 0, 0);
-  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    color: $color-stark;
+    text-align: center;
+    height: 60px;
+    width: 210px;
+    border-radius: 10px;
+    position: relative;
+    left: 80px;
+    bottom: 30px;
+    font-size: 2.4rem;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 .sub-title {
-  color: $color-stark;
-  height: 60px;
-  width: 300px;
-  border-radius: 10px;
-  position: relative;
-  top: 20px;
-  font-size: 1.8rem;
+    color: $color-stark;
+    height: 60px;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    font-size: 1.8rem;
 }
 
 .Form {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 input {
-  border: none;
-  border-radius: 5px;
-  height: 40px;
-  background-color: #1d242eb3;
-  border: 1px solid #29303a;
-  outline: none;
-  color: $color-stark;
-  transition: all 0.5s;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #1d242eb3;
+    border: 1px solid #29303a;
+    outline: none;
+    color: $color-stark;
+    transition: all 0.5s;
 }
 
 textarea {
-  border-radius: 5px;
-  border: none;
-  background-color: #1d242eb3;
-  border: 1px solid #29303a;
-  outline: none;
-  color: $color-stark;
-  transition: all 0.5s;
+    border-radius: 5px;
+    border: none;
+    background-color: #1d242eb3;
+    border: 1px solid #29303a;
+    outline: none;
+    color: $color-stark;
+    transition: all 0.5s;
 }
+
 label {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .input {
-  padding: 12px 0;
-  display: flex;
-  flex-direction: column;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
 }
+
 .textarea {
-  padding: 12px 0;
-  display: flex;
-  flex-direction: column;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .btn {
-  border: none;
-  border-radius: 5px;
-  background-color: $color-jewel;
-  color: $color-stark;
-  height: 50px;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 10px;
-  cursor: pointer;
-
-  &:hover {
-    transition: all 0.6s ease;
-    transform: scale(1.015);
-    font-size: 22px;
-  }
+    border: none;
+    border-radius: 5px;
+    background-color: $color-jewel;
+    color: $color-stark;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    &:hover {
+        transition: all 0.6s ease;
+        transform: scale(1.015);
+        font-size: 22px;
+    }
 }
 
 input:focus {
-  border-color: $color-jewel;
+    border-color: $color-jewel;
 }
 
 textarea:focus {
-  border-color: $color-jewel;
+    border-color: $color-jewel;
 }
 
 .card-container {
-  width: 80%;
-  padding-left: 20px;
-  background-color: #1d242eb3;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  bottom: 25px;
-}
-.container {
-  padding: 15px 10px;
-}
-
-.card-icon {
-  font-size: 23px;
-}
-
-.card-title {
-  font-size: 18px;
-  margin: 0;
-}
-
-.card-parrafo {
-  font-size: 12px;
-  margin: 0;
-}
-.contact-social {
-  width: 80%;
-  position: relative;
-  bottom: 6px;
-}
-@media only screen and (min-width: 375px) {
-  .Contact {
-    padding: 0;
-    display: flex;
-    justify-content: center;
-
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-  }
-  .contacto-content {
+    width: 80%;
+    padding-left: 20px;
+    background-color: #1d242eb3;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    bottom: 25px;
+}
 
+.container {
+    padding: 15px 10px;
+}
+
+.card-icon {
+    font-size: 23px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+.card-parrafo {
+    font-size: 12px;
+    margin: 0;
+}
+
+.contact-social {
+    width: 80%;
     position: relative;
-    padding-left: 85px;
-    top: 110px;
-  }
-  .title {
-    top: 0;
-    left: -200px;
-    font-size: 25px;
-    width: 150px;
-    height: 50px;
-  }
-  .title-Servicios {
-    display: none;
-  }
-  .Contact-Form {
-    padding: 0;
-    width: 270px;
-  }
-  .sub-title {
-    font-size: 22px;
-    top: 30px;
-  }
-  .title {
-    display: none;
-  }
-  .Servicios {
-    width: 320px;
-    padding: 0;
-    position: relative;
-    top: 50px;
-  }
-  .input {
-    padding: 0;
-  }
-  .btn {
-    height: 40px;
-  }
-  .card-container {
-    height: 125px;
-  }
-  .social-net {
-    position: relative;
-    top: -10px;
-  }
-  .Contact {
-    &::before {
-      height: 140%;
-      width: 133%;
+    bottom: 6px;
+}
+
+@media only screen and (min-width: 375px) {
+    .Contact {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
     }
-  }
+    .contacto-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding-left: 85px;
+        top: 110px;
+    }
+    .title {
+        top: 0;
+        left: -200px;
+        font-size: 25px;
+        width: 150px;
+        height: 50px;
+    }
+    .title-Servicios {
+        display: none;
+    }
+    .Contact-Form {
+        padding: 0;
+        width: 270px;
+    }
+    .sub-title {
+        font-size: 22px;
+        top: 30px;
+    }
+    .title {
+        display: none;
+    }
+    .Servicios {
+        width: 320px;
+        padding: 0;
+        position: relative;
+        top: 50px;
+    }
+    .input {
+        padding: 0;
+    }
+    .btn {
+        height: 40px;
+    }
+    .card-container {
+        height: 125px;
+    }
+    .social-net {
+        position: relative;
+        top: -10px;
+    }
+    .Contact {
+        &::before {
+            height: 140%;
+        }
+    }
 }
 
 @media only screen and (min-width: 768px) {
-  .contacto-content {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    position: relative;
-    right: 80px;
-    top: -10px;
-  }
-  .Contact-Form {
-    width: 350px;
-    padding: 0;
-  }
-
-  .Servicios {
-    padding-left: 20px;
-    width: 300px;
-    top: 150px;
-    height: 300px;
-  }
+    .contacto-content {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+        right: 80px;
+        top: -10px;
+    }
+    .Contact-Form {
+        width: 350px;
+        padding: 0;
+    }
+    .Servicios {
+        padding-left: 20px;
+        width: 300px;
+        top: 150px;
+        height: 300px;
+    }
 }
 
 @media only screen and (min-width: 1024px) {
-  .contacto-content {
-    padding-left: 250px;
-    top: -100px;
-  }
-  .Contact-Form {
-    width: 400px;
-    padding-right: 40px;
-  }
-  .sub-title {
-    font-size: 28px;
-  }
-
-  .Servicios {
-    width: 400px;
-  }
+    .contacto-content {
+        padding-left: 250px;
+        top: -100px;
+    }
+    .Contact-Form {
+        width: 400px;
+        padding-right: 40px;
+    }
+    .sub-title {
+        font-size: 28px;
+    }
+    .Servicios {
+        width: 400px;
+    }
 }
