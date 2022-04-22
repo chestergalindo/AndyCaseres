@@ -230,6 +230,14 @@ textarea:focus {
         padding: 0;
         margin-bottom: 20px;
     }
+    input::placeholder {
+        color: white;
+        font-size: 15px;
+    }
+    textarea::placeholder {
+        color: white;
+        font-size: 15px;
+    }
     .btn {
         height: 40px;
     }
