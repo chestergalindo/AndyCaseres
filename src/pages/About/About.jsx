@@ -9,7 +9,7 @@ const About = () => {
         <div className="left">
           <img
             className="img"
-            src="https://i.ibb.co/RyJHmxR/andy.png"
+            src="https://i.ibb.co/sbLCh2w/Whats-App-Image-2022-04-26-at-11-04-19-AM.jpg"
             alt="Andy"
           ></img>
           <div className="cont-left"></div>
