@@ -6,7 +6,7 @@ const Infodev = () => {
     <div className='Infodev'>
       <a href='/'>
         {' '}
-        <img className='logo' src={imagenes.logo} alt='AC' />
+        <img className='logo' src={imagenes.logo} alt='AC podrias colocar un nombre mas sencillo pensando en personas que utilizan solo lectores de pantalla' />
       </a>
       <br />
       <span>

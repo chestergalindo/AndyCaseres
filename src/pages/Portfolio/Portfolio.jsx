@@ -6,6 +6,7 @@ import carrocompras from '../../assets/carro-compra-react.png'
 import spacex from '../../assets/SPX.png'
 import calculadora from '../../assets/calculadora.png'
 
+//crear una constant y recorerla para no repetir codigo
 const Portfolio = () => {
   return (
     <div className='portfolio'>

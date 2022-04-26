@@ -1,5 +1,6 @@
 import './Contact.scss'
 
+//dejaste de utilizar tsx??
 const Card = (props) => {
   return (
     <div className='card-container'>

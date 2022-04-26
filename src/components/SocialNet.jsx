@@ -1,15 +1,39 @@
 import { BsInstagram, BsTwitter, BsLinkedin, BsGithub } from 'react-icons/bs'
 import '../styles/SocialNet.scss'
 
+const socialMediaList = [
+  {
+    className:iconSocial,
+    href:'https://www.instagram.com/andycaseresdev/',
+    target: __blank,
+    icon: BsInstagram
+  },
+  {
+    className:iconSocial,
+    href:'https://twitter.com/AndyWuilliam',
+    target: __blank,
+    icon: BsTwitter
+  },
+]
+
 const SocialNet = () => {
   return (
     <div className='social-net'>
-      <a
-        className='iconSocial'
-        href='https://www.instagram.com/andycaseresdev/'
-        target='__blank'
+      {socialMediaList.map((element)=>(
+        <a
+        className=element.className
+        href= element.href
+        target= elemen.target
       >
-        <BsInstagram />
+        < element.icon />
+      </a>
+      ))}
+      {/* <a
+        className='iconSocial'
+        href=
+        target=''
+      >
+        
       </a>
       <a
         className='iconSocial'
@@ -31,7 +55,7 @@ const SocialNet = () => {
         target='__blank'
       >
         <BsGithub />
-      </a>
+      </a> */}
     </div>
   )
 }

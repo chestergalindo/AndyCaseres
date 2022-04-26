@@ -1,10 +1,11 @@
 import { BsGithub, BsBoxArrowUpRight } from 'react-icons/bs'
 import './Portfolio.scss'
-import { Fragment } from 'react'
+// import { Fragment } from 'react'
 
+// <Fragment> y <> cumplen la misma funcion talvez te ayude
 const Card = (props) => {
   return (
-    <Fragment>
+    <>
       <div className='card'>
         <div class='card-content'>
           <img className='img-card' src={props.img} alt='andy' />
@@ -24,7 +25,7 @@ const Card = (props) => {
           </a>
         </div>
       </div>
-    </Fragment>
+    </>
   )
 }
 

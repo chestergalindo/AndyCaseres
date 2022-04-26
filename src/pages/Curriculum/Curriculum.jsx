@@ -1,6 +1,8 @@
 import "./Curriculum.scss";
 import Skill from "./Skill";
 
+
+//puedes crear un listado y con un .map recorer para no repetir codigo
 const Curriculum = () => {
   return (
     <div className="Curriculum">

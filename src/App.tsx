@@ -1,5 +1,4 @@
-import SideBarMenu from './components/SideBarMenu'
-import { SideBarMenuItem, SideBarMenuCard } from './types/types'
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import {
   FcDocument,
   FcInfo,
@@ -7,54 +6,17 @@ import {
   FcHome,
   FcOpenedFolder,
 } from 'react-icons/fc'
-import imagenes from './assets/imagenes.js'
-import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
+import SideBarMenu from './components/SideBarMenu'
+import { items, card } from './utils/constansts'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Portfolio from './pages/Portfolio/Portfolio'
 import Curriculum from './pages/Curriculum/Curriculum'
 import Contact from './pages/Contact/Contact'
 
+import imagenes from './assets/imagenes.js'
+
 function App(): JSX.Element {
-  const items: SideBarMenuItem[] = [
-    {
-      id: '1',
-      label: 'INICIO',
-      icon: FcHome,
-      url: '/',
-    },
-    {
-      id: '2',
-      label: 'ACERCA DE',
-      icon: FcInfo,
-      url: '/About',
-    },
-    {
-      id: '3',
-      label: 'CURRICULUM',
-      icon: FcDocument,
-      url: '/Curriculum',
-    },
-    {
-      id: '4',
-      label: 'PORTAFOLIO',
-      icon: FcOpenedFolder,
-      url: '/Portfolio',
-    },
-    {
-      id: '5',
-      label: 'CONTACTO',
-      icon: FcCallback,
-      url: '/Contact',
-    },
-  ]
-  const card: SideBarMenuCard = {
-    id: 'card01',
-    displayName: 'Andy Caseres',
-    title: 'Portafolio',
-    photoUrl: imagenes.profileImage,
-    url: '/',
-  }
   return (
     <BrowserRouter>
       <SideBarMenu items={items} card={card} />
